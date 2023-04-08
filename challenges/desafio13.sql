@@ -5,11 +5,9 @@ SELECT
     ELSE 'Maior de 60 anos'
   END AS faixa_etaria,
   COUNT(DISTINCT u.pessoa_usuaria_id) AS total_pessoas_usuarias,
-  COUNT(cf.cancoes_id) AS total_favoritadas
+  COUNT(cf.pessoa_usuaria_id) AS total_favoritadas
 FROM SpotifyClone.usuarios u
-LEFT JOIN SpotifyClone.cancoes_favoritas cf ON u.pessoa_usuaria_id = cf.cancoes_id
+LEFT JOIN SpotifyClone.cancoes_favoritas cf ON u.pessoa_usuaria_id = cf.pessoa_usuaria_id
 GROUP BY faixa_etaria
 ORDER BY faixa_etaria
 ;
-  
-
