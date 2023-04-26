@@ -1,7 +1,7 @@
-<h1 align='center' id='Título-e-Imagem-de-capa'>All For One</h1>
+<h1 align='center' id='Título-e-Imagem-de-capa'>One For All</h1>
 
 <p align='center'>
-<img src='./mysql-wallpaper.jpg' width="500" heigth="500"/>
+<img src='https://raw.githubusercontent.com/viniciusjosedev/project-mysql-all-for-one/main/mysql-wallpaper.jpg' width="500" heigth="500"/>
 </p>
 
 
