@@ -18,19 +18,19 @@
 ### Para clones com HTTPS:
 
 ```bash
-  git clone https://github.com/viniciusjosedev/project-mysql-all-for-one.git
+  git clone https://github.com/viniciusjosedev/project-mysql-one-for-all.git
 ```
 
 ### Para clones com SSH:
 
 ```bash
-  git clone git@github.com:viniciusjosedev/project-mysql-all-for-one.git
+  git clone git@github.com:viniciusjosedev/project-mysql-one-for-all.git
 ```
 
 ### Para clones com GitHub CLI:
 
 ```bash
-  gh repo clone viniciusjosedev/project-mysql-all-for-one
+  gh repo clone viniciusjosedev/project-mysql-one-for-all
 ```
 
 ### Com o docker e docker-compose instalado, rode o seguinte comando na raiz do projeto:
@@ -43,9 +43,9 @@
 
 ## Descrição do projeto
 
-### Segundo projeto de backend realizado mediante a necessidade de praticar os conhecimentos adquiridos anteriormente de forma teórica. Este projeto em específico se trata de uma série de comandos utilizados no MYSQL. ALém disso, utilizei o docker e docker-compose para isolar a aplicação e evitar problemas de versões das tecnologias usadas.
+### Terceiro projeto de backend realizado mediante a necessidade de praticar os conhecimentos adquiridos anteriormente de forma teórica. Este projeto em específico se trata de uma série de comandos utilizados no MYSQL com o foco em seleção de dados e criação de tables, bem como a inserção e a exlusão das mesmas. Além disso, utilizei o docker e docker-compose para isolar a aplicação e evitar problemas de versões das tecnologias usadas.
 
 ## Pessoas Desenvolvedoras do Projeto.
 ### Projeto realizado em conjunto com a empresa de tecnologia Trybe, que foi a responsável pela criação dos testes com jest, fazendo-se assim, toda a estrutura necessária para um bom desenvolvimento orientado a testes (TDD).
-### Toda a estrutura de arquivos foram de responsabilidade da trybe, com excessão: desafio1.sql a desafio27.sql.
+### Toda a estrutura de arquivos foram de responsabilidade da trybe, com excessão: desafio1.sql a desafio13.sql.
 ##### OBS: Os testes do jest foram apagados com a finalidade de preservar a autoria de código com base nas regras internas da Trybe.
